@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Centrado</title>
+    <style>
+        .informacion1tabla {
+            height: 1500PX; /* Ocupa toda la altura de la ventana */
+            display: flex; /* Activar flexbox */
+            justify-content: center; /* Centrar horizontalmente */
+            align-items: center; /* Centrar verticalmente */
+            padding: 20px; /* Espacio interno opcional */
+
+            background: #F0F2F0;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #6883ff73, #f0f2f06a), url(calendarimg.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to left, #6883ff73, #f0f2f08e), url(calendarimg.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           
+          
+            background-size: cover ;
+            background-attachment:fixed ;
+            position:relative ;
+
+        }
+
+        /* Estilo del contenido */
+        .info {
+            text-align: center; /* Centrar texto */
+            max-width: 800px; /* Ancho máximo para mejorar la legibilidad */
+            padding: 2rem 3rem;
+            border:3px solid #555;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Estilos de encabezados */
+        h1, h3 {
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin-bottom: 1.5rem; /* Separación clara debajo del título */
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 2rem; /* Espacio superior para diferenciar secciones */
+        }
+
+        /* Estilo de los párrafos */
+        p {
+            font-size: 1rem;
+            line-height: 1.8; /* Interlineado amplio para mejor lectura */
+            color: black;
+            margin-bottom: 1rem; /* Separación entre párrafos */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo de los span tipo libro */
+        span {
+            font-family: "Georgia", serif; /* Fuente serif tipo libro */
+            font-style: italic;
+            font-weight: bold;
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="informacion1tabla">
+        <div class="info">
+            <h1>Productos de carne de res cruda</h1>
+            <p>Especie de muestreo: bovina</p>
+            <p>
+                A continuación, observarás el número de muestras por tomar por semana y al
+                final del calendario observarás el total de muestras tomadas
+                por componente/patógeno.
+            </p>
+            <h3><span>1</span> Total de muestras en el año de Carne molida cruda / STECs</h3>
+            <p>Son 96 muestras</p>
+            <h3><span>2</span> Total de muestras en el año de Recortes de manufactura / STECs y Salmonella</h3>
+            <p>Son 96 muestras</p>
+            <p>
+                Los siguientes establecimientos alternarán por mes las muestras de recortes y carne molida para realizar una por quincena: Cami, Comercial Ganadera,
+                Agropecuaria Sto Dgo, Agrocarne.
+            </p>
+            <h3><span>3</span> Total de muestras en el año de Análisis bacteriológicos de agua (solo aplica en establecimientos con vocación de exportación a EEUU)</h3>
+            <p>Son 24 muestras</p>
+            <h3><span>4</span> Total de muestras en el año de Análisis físico-químico de agua (solo aplica en establecimientos con vocación de exportación a EEUU)</h3>
+            <p>Son 4 muestras</p>
+            <h3><span>5</span> Total de muestras en el año de Salmonella en canales de res (solo aplica en establecimientos con vocación de exportación a EEUU)</h3>
+            <p>Son 116 muestras</p>
+        </div>
+    </section>
+</body>
+</html>
