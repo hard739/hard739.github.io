@@ -471,13 +471,41 @@
             border:3px solid #555;
             backdrop-filter: blur(10px);
         }
-        
 
-      
-      
-        
-        
 
+
+        .quimicainf1 {
+            height: 1300px; /* Ocupa toda la altura de la ventana */
+            display: flex; /* Activar flexbox */
+            justify-content: center; /* Centrar horizontalmente */
+            align-items: center; /* Centrar verticalmente */
+            padding: 20px; /* Espacio interno opcional */
+
+            background: #F0F2F0;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #6883ff73, #f0f2f06a), url(quimica.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to left, #6883ff73, #f0f2f08e), url(quimica.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           
+          
+            background-size: cover ;
+            background-attachment:fixed ;
+            position:relative ;
+
+        }
+        .infoquimica1{
+            border : solid 1px black;
+            text-align: center; /* Centrar texto */
+            max-width: auto; /* Ancho máximo para mejorar la legibilidad */
+            padding: 2rem 3rem;
+            border:3px solid #555;
+            backdrop-filter: blur(10px);
+
+        }
+        .tabla3{
+            
+            height: 400px;
+            display: flex;
+          
+        }
 
     </style>
 </head>
@@ -1006,6 +1034,40 @@
         </div>
 
     </section>
+    
+
+
+
+    <section class="quimicainf1">
+        <div class="infoquimica1">
+          <div class="infquimi">
+                <h1></h1>
+              <h1>CRONOGRAMA OFICIAL DE MUESTREO DE RESIDUOS QUIMICOS 2025</h1>
+              <p>Especie a muestrear: Porcinos </p>
+              <p>  A continuación, observarás el número de muestras por tomar por semana y al
+                  final del calendario observarás el total de muestras tomadas
+                  por componente/patógeno.</p>
+  
+              <h3><span>1 </span> ANTIBIOTICOS</h3>
+              <p>Son 72  muestras</p>
+  
+              <h3><span>2 </span>SULFAS</h3>
+              <p>Son 14  muestras</p>
+  
+              <h3><span>3 </span>ANTIHELMINTICOS</h3>
+              <p>Son 60  muestras</p>
+              <h3><span>4 </span>PROMOTORES DE CRECIMIENTO</h3>
+              <h3><span>5 </span>METALES PESADOS</h3>
+              <h3><span>6 </span>CLORANFENICOL</h3>
+          </div>
+  
+        </div>  
+  
+      </section>
+
+
+
+
 
 
     <section class = "residuos">
@@ -1095,7 +1157,7 @@
     </section>
 
 
-    <section class = "residuos">
+    <section class = "quimica">
         <h1>
             cronograma oficial de muestreo de residuos qumicos 2024 primer segundo semetres
         </h1>
@@ -1174,11 +1236,9 @@
                     
     
                 </tr>
-
             </table>
         </div>
-
-
     </section>
+
 </body>
 </html>
